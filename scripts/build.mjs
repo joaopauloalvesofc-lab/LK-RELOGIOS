@@ -4,12 +4,14 @@
 // Não edite os .html gerados: edite este arquivo, os dados ou os SVGs e rode `npm run build`.
 import fs from 'node:fs';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { icon } from '../src/icons.mjs';
 
 const loja = JSON.parse(fs.readFileSync('data/loja.json', 'utf8'));
 const produtos = JSON.parse(fs.readFileSync('data/produtos.json', 'utf8'));
 const svg = nome => fs.readFileSync(`src/svg/${nome}.svg`, 'utf8').trim();
-const V = Date.now().toString(36);                                  // quebra de cache de CSS/JS
+// Versão de CSS/JS para quebrar cache: hash do conteúdo (só muda quando os arquivos mudam).
+const V = createHash('sha256').update(fs.readFileSync('assets/css/site.css')).update(fs.readFileSync('assets/js/site.js')).digest('hex').slice(0, 10);
 
 // ------------------------------------------------------------------ utilidades
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
