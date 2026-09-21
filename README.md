@@ -72,9 +72,9 @@ sobrepostos), `delta.mjs` (diferença em px entre os dois) e `shot.mjs` (captura
 
 ## Pendências
 
-- Número do WhatsApp e @ do Instagram em `data/loja.json`. Enquanto estiverem vazios, o WhatsApp
-  abre para a pessoa escolher o contato e o Instagram leva à página inicial do Instagram.
 - URL final do site em `data/loja.json` (ativa o link canônico e a imagem de compartilhamento).
+
+Contatos atuais (em `data/loja.json`): WhatsApp (83) 99840-1797 e Instagram @lkrelogios12.
 
 ## Créditos
 
