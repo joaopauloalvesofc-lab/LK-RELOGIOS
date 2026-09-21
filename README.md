@@ -11,8 +11,16 @@ npm install
 npm run dev        # http://localhost:3005 (na rede local: http://<ip-do-mac>:3005)
 ```
 
-Para publicar, sirva a pasta como site estático (GitHub Pages, Vercel, Netlify etc.). Os caminhos
-são relativos, então o site funciona na raiz do domínio ou numa subpasta.
+Os caminhos são relativos, então o site funciona na raiz do domínio ou numa subpasta.
+
+## Publicar
+
+- **Vercel**: já configurado em `vercel.json`. A cada push, a Vercel roda `npm run build` e
+  `npm run dist` e publica a pasta `dist/` (só páginas e `assets/`). Endereços sem barra final,
+  como `/relogio/seiko-presage`, são redirecionados para a versão com barra, que as páginas usam
+  para achar as imagens.
+- **Outras hospedagens estáticas** (GitHub Pages, Netlify): publique a raiz do repositório, ou
+  rode `npm run build && npm run dist` e publique `dist/`.
 
 ## Páginas
 
