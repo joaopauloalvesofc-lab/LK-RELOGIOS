@@ -1,0 +1,19 @@
+{
+  "name": "lk-relogios",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Site LK Relógios — venda de relógios originais e assistência técnica, João Pessoa - PB",
+  "scripts": {
+    "dev": "npx --yes serve -l 3005 .",
+    "images": "node scripts/build-images.mjs",
+    "logos": "node scripts/build-logos.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "opentype.js": "^1.3.4",
+    "potrace": "^2.1.8",
+    "puppeteer-core": "^25.11.0",
+    "sharp": "^0.35.4"
+  }
+}

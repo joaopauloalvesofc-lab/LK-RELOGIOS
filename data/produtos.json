@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "omega-seamaster-diver-300m",
+    "marca": "Omega",
+    "logo": "omega",
+    "modelo": "Seamaster",
+    "nome": "Seamaster Diver 300M",
+    "genero": ["masculino"],
+    "specs": ["Automático", "42mm", "Safira"],
+    "preco": 42900,
+    "parcelas": 10,
+    "imagens": ["omega-seamaster-diver-300m"],
+    "alt": "Omega Seamaster Diver 300M com mostrador preto ondulado, bisel preto e pulseira de aço",
+    "sobre": "Ícone da relojoaria, o Seamaster Diver 300M combina performance, tradição e design atemporal.",
+    "ficha": [
+      ["Movimento", "Automático, Co-Axial Master Chronometer"],
+      ["Caixa", "Aço inoxidável, 42 mm"],
+      ["Vidro", "Safira"],
+      ["Mostrador", "Preto com ondas gravadas"],
+      ["Resistência à água", "300 m"]
+    ]
+  },
+  {
+    "slug": "orient-bambino",
+    "marca": "Orient",
+    "logo": "orient",
+    "modelo": "Bambino",
+    "nome": "Bambino",
+    "genero": ["masculino"],
+    "specs": ["Automático", "40,5mm", "Mineral"],
+    "preco": 2180,
+    "parcelas": 10,
+    "imagens": ["orient-bambino"],
+    "alt": "Orient Bambino com mostrador creme, caixa de aço polido e pulseira de couro preto",
+    "sobre": "Clássico de linhas limpas, o Bambino traz mostrador abaulado, movimento automático e a elegância discreta de um relógio social.",
+    "ficha": [
+      ["Movimento", "Automático, calibre Orient"],
+      ["Caixa", "Aço inoxidável, 40,5 mm"],
+      ["Vidro", "Mineral abaulado"],
+      ["Pulseira", "Couro"],
+      ["Resistência à água", "30 m"]
+    ]
+  },
+  {
+    "slug": "casio-g-shock-ga-2100",
+    "marca": "G-Shock",
+    "logo": "gshock",
+    "modelo": "GA-2100",
+    "nome": "GA-2100",
+    "genero": ["masculino", "feminino"],
+    "specs": ["Quartzo", "45,4mm", "Mineral"],
+    "preco": 1190,
+    "parcelas": 10,
+    "imagens": ["casio-g-shock-ga-2100"],
+    "alt": "Casio G-Shock GA-2100 preto, analógico-digital, com caixa octogonal de resina",
+    "sobre": "Design robusto, tecnologia de ponta e a confiabilidade que é referência no mundo todo. Caixa octogonal fina com estrutura Carbon Core Guard.",
+    "ficha": [
+      ["Movimento", "Quartzo, analógico-digital"],
+      ["Caixa", "Resina com Carbon Core Guard, 48,5 × 45,4 mm"],
+      ["Vidro", "Mineral"],
+      ["Funções", "Cronômetro, timer, alarme e hora mundial"],
+      ["Resistência à água", "200 m"]
+    ]
+  },
+  {
+    "slug": "seiko-presage",
+    "marca": "Seiko",
+    "logo": "seiko",
+    "modelo": "Presage",
+    "nome": "Presage Cocktail Time",
+    "genero": ["masculino"],
+    "specs": ["Automático", "40,5mm", "Hardlex"],
+    "preco": 4290,
+    "parcelas": 10,
+    "imagens": ["seiko-presage"],
+    "alt": "Seiko Presage com mostrador azul raiado, ponteiros dourados e pulseira de aço",
+    "sobre": "Inspirado na arte da coquetelaria japonesa, o Presage une mostrador de acabamento raiado, movimento automático e acabamento refinado.",
+    "ficha": [
+      ["Movimento", "Automático, calibre Seiko 4R35"],
+      ["Caixa", "Aço inoxidável, 40,5 mm"],
+      ["Vidro", "Hardlex abaulado"],
+      ["Mostrador", "Azul raiado"],
+      ["Resistência à água", "50 m"]
+    ]
+  }
+]

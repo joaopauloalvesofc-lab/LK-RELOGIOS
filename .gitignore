@@ -1,0 +1,5 @@
+node_modules/
+# imagens intermediárias ampliadas (regeneradas por `npm run images`)
+source/work/
+.DS_Store
+*.log

@@ -1,0 +1,6 @@
+{
+  "headers": [
+    { "source": "**/*.avif", "headers": [{ "key": "Content-Type", "value": "image/avif" }] },
+    { "source": "**/*.@(css|js)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+  ]
+}
